@@ -1,0 +1,19 @@
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build & Packaging Artifacts
+build/
+dist/
+*.spec
+*.egg-info/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store

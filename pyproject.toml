@@ -1,0 +1,14 @@
+[project]
+name = "vlsi-studio"
+version = "0.1.0"
+description = "Standalone Educational VLSI Suite for Windows combining RTL Simulation, Synthesis/Schematic, and Magic-style Layout & DRC"
+requires-python = ">=3.11"
+dependencies = [
+    "PySide6>=6.6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pyinstaller>=6.0.0",
+]

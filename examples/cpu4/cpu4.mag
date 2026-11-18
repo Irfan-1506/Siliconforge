@@ -1,0 +1,86 @@
+magic
+tech scmos
+timestamp 1795012491
+<< metal1 >>
+rect 0 35 140 39
+rect 0 1 140 5
+rect 4 27 8 35
+rect 4 5 8 13
+rect 12 9 16 30
+rect 32 27 36 35
+rect 32 5 36 13
+rect 40 9 44 30
+rect 60 27 64 35
+rect 60 5 64 13
+rect 68 9 72 30
+rect 88 27 92 35
+rect 88 5 92 13
+rect 96 9 100 30
+rect 116 27 120 35
+rect 116 5 120 13
+rect 124 9 128 30
+<< nwell >>
+rect 0 19 140 39
+<< metal2 >>
+rect 2 14 138 18
+rect 2 21 138 25
+<< pdiff >>
+rect 4 24 22 31
+rect 32 24 50 31
+rect 60 24 78 31
+rect 88 24 106 31
+rect 116 24 134 31
+<< ndiff >>
+rect 4 8 22 14
+rect 32 8 50 14
+rect 60 8 78 14
+rect 88 8 106 14
+rect 116 8 134 14
+<< poly >>
+rect 9 6 11 33
+rect 17 6 19 33
+rect 37 6 39 33
+rect 45 6 47 33
+rect 65 6 67 33
+rect 73 6 75 33
+rect 93 6 95 33
+rect 101 6 103 33
+rect 121 6 123 33
+rect 129 6 131 33
+<< contact >>
+rect 5 28 7 30
+rect 5 10 7 12
+rect 13 26 15 28
+rect 13 10 15 12
+rect 33 28 35 30
+rect 33 10 35 12
+rect 41 26 43 28
+rect 41 10 43 12
+rect 61 28 63 30
+rect 61 10 63 12
+rect 69 26 71 28
+rect 69 10 71 12
+rect 89 28 91 30
+rect 89 10 91 12
+rect 97 26 99 28
+rect 97 10 99 12
+rect 117 28 119 30
+rect 117 10 119 12
+rect 125 26 127 28
+rect 125 10 127 12
+<< via >>
+rect 13 22 15 24
+rect 41 22 43 24
+rect 69 22 71 24
+rect 97 22 99 24
+rect 125 22 127 24
+<< labels >>
+rlabel metal1 4 37 4 37 0 VDD
+rlabel metal1 4 3 4 3 0 GND
+rlabel metal2 6 16 6 16 0 clk
+rlabel poly 9 18 9 18 0 instr[7:0]
+rlabel metal2 40 23 40 23 0 pc[3:0]
+rlabel metal2 96 23 96 23 0 acc[3:0]
+rlabel metal1 14 18 14 18 0 zero
+rlabel metal1 14 26 14 26 0 halted
+<< end >>
