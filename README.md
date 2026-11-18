@@ -175,3 +175,9 @@ pytest -v
 ```
 
 The test suite in `tests/test_vlsi_suite.py` verifies Verilog simulation & VCD export, `case`/`for`/modern Verilog syntax, synthesis utilization metrics, Magic `.mag` round-trip, DRC pass/fail rules, automatic PnR layout generation, and LVS verification.
+
+---
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
